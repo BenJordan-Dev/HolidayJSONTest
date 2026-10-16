@@ -1,0 +1,97 @@
+{
+  "default": {
+    "id": "H000",
+    "name": "Hand-picked Holidays for You",
+    "destination": "Worldwide",
+    "price": "from £499",
+    "url": "https://example.com/holidays",
+    "image": "https://placehold.co/600x400?text=Holidays"
+  },
+  "holidays": [
+    {
+      "id": "H001",
+      "name": "Amalfi Coast Escape",
+      "destination": "Italy",
+      "price": "£1,299",
+      "quantity": 12,
+      "url": "https://example.com/holidays/amalfi-coast",
+      "image": "https://placehold.co/600x400?text=Amalfi+Coast",
+      "fallback": {
+        "id": "H002",
+        "name": "Santorini Sunset Retreat",
+        "destination": "Greece",
+        "price": "£1,149",
+        "url": "https://example.com/holidays/santorini",
+        "image": "https://placehold.co/600x400?text=Santorini"
+      }
+    },
+    {
+      "id": "H002",
+      "name": "Santorini Sunset Retreat",
+      "destination": "Greece",
+      "price": "£1,149",
+      "quantity": 0,
+      "url": "https://example.com/holidays/santorini",
+      "image": "https://placehold.co/600x400?text=Santorini",
+      "fallback": {
+        "id": "H003",
+        "name": "Algarve Beach Break",
+        "destination": "Portugal",
+        "price": "£899",
+        "url": "https://example.com/holidays/algarve",
+        "image": "https://placehold.co/600x400?text=Algarve"
+      }
+    },
+    {
+      "id": "H003",
+      "name": "Algarve Beach Break",
+      "destination": "Portugal",
+      "price": "£899",
+      "quantity": 25,
+      "url": "https://example.com/holidays/algarve",
+      "image": "https://placehold.co/600x400?text=Algarve",
+      "fallback": {
+        "id": "H001",
+        "name": "Amalfi Coast Escape",
+        "destination": "Italy",
+        "price": "£1,299",
+        "url": "https://example.com/holidays/amalfi-coast",
+        "image": "https://placehold.co/600x400?text=Amalfi+Coast"
+      }
+    },
+    {
+      "id": "H004",
+      "name": "Lapland Northern Lights",
+      "destination": "Finland",
+      "price": "£1,799",
+      "quantity": 4,
+      "url": "https://example.com/holidays/lapland",
+      "image": "https://placehold.co/600x400?text=Lapland",
+      "fallback": {
+        "id": "H005",
+        "name": "Swiss Alps Ski Week",
+        "destination": "Switzerland",
+        "price": "£1,649",
+        "url": "https://example.com/holidays/swiss-alps",
+        "image": "https://placehold.co/600x400?text=Swiss+Alps"
+      }
+    },
+    {
+      "id": "H005",
+      "name": "Swiss Alps Ski Week",
+      "destination": "Switzerland",
+      "price": "£1,649",
+      "quantity": 0,
+      "url": "https://example.com/holidays/swiss-alps",
+      "image": "https://placehold.co/600x400?text=Swiss+Alps",
+      "fallback": {
+        "id": "H004",
+        "name": "Lapland Northern Lights",
+        "destination": "Finland",
+        "price": "£1,799",
+        "url": "https://example.com/holidays/lapland",
+        "image": "https://placehold.co/600x400?text=Lapland"
+      }
+    }
+  ]
+}
